@@ -1,0 +1,50 @@
+.search-bar {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+#heading {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 6px;
+    font-size: 65px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 350;
+}
+
+#searchbtn {
+    display: flex;
+    position: absolute;
+    top: 200%;
+    left: -10%;
+    padding: 6px;
+}
+
+#luckybtn {
+    display: flex;
+    position: absolute;
+    padding: 6px;
+    top: 56.75%;
+    left: 53%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.more-search {
+    text-align: right;
+    padding: 3px;
+}
+
+#searchbtn {
+    box-sizing: border-box;
+    border-radius: 100%;
+}
