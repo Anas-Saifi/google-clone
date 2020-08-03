@@ -18,7 +18,7 @@
     padding: 6px;
     font-size: 65px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 350;
+    font-weight: 400;
 }
 
 #searchbtn {
@@ -47,4 +47,28 @@
 #searchbtn {
     box-sizing: border-box;
     border-radius: 100%;
+}
+
+#g {
+    color: #4885ed;
+}
+
+#o {
+    color: #db3236;
+}
+
+#O {
+    color: #f4c20d;
+}
+
+#G {
+    color: #4885ed;
+}
+
+#l {
+    color: #3cba54;
+}
+
+#e {
+    color: #db3236;
 }
