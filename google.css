@@ -2,7 +2,7 @@
     display: flex;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 51%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     padding: 5px;
@@ -24,17 +24,46 @@
 #searchbtn {
     display: flex;
     position: absolute;
-    top: 200%;
-    left: -10%;
+    top: 145%;
+    right: 50%;
     padding: 6px;
+    height: 45px;
+    border-color: none;
+}
+
+#googlebtn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    border-style: none;
+    color: #5F6871;
+    border-color: #F4F4F4;
+    border-radius: 5px;
+}
+
+#googlebtn:hover {
+    color: black;
+}
+
+#luckbtn {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 33px;
+    border-style: none;
+    border-color: #F4F4F4;
+    font-weight: 900;
+    color: #5F6871;
+    border-radius: 5px;
+}
+
+#luckbtn:hover {
+    color: black;
 }
 
 #luckybtn {
     display: flex;
     position: absolute;
     padding: 6px;
-    top: 56.75%;
-    left: 53%;
+    top: 56.8%;
+    left: 54%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
@@ -54,7 +83,7 @@
 }
 
 #o {
-    color: #db3236;
+    color: #EA4335;
 }
 
 #O {
@@ -70,5 +99,29 @@
 }
 
 #e {
-    color: #db3236;
+    color: #EA4335;
+}
+
+#bar {
+    border-style: none;
+    border: 1px solid black;
+    width: 560px;
+    height: 35px;
+    border-radius: 0px 30px 30px 0px;
+    border-width: 1px;
+    border-left: none;
+}
+
+#image {
+    background-color: white;
+    width: 40px;
+    height: 29px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 30px 0px 0px 30px;
+    border-right: none;
+    height: 37px;
+    top: 47.115%;
+    left: 30%;
+
 }
