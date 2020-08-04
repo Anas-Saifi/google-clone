@@ -1,0 +1,155 @@
+.search-bar {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+#heading {
+    display: flex;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 6px;
+    font-size: 65px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+#searchbtn {
+    display: flex;
+    position: absolute;
+    top: 145%;
+    right: 50%;
+    padding: 6px;
+    height: 45px;
+    border-color: none;
+}
+
+#googlebtn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    border-style: none;
+    color: #5F6871;
+    border-color: #F4F4F4;
+    border-radius: 5px;
+}
+
+#googlebtn:hover {
+    color: black;
+}
+
+#luckbtn {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 33px;
+    border-style: none;
+    border-color: #F4F4F4;
+    font-weight: 900;
+    color: #5F6871;
+    border-radius: 5px;
+}
+
+#luckbtn:hover {
+    color: black;
+}
+
+#luckybtn {
+    display: flex;
+    position: absolute;
+    padding: 6px;
+    top: 56.8%;
+    left: 54%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.more-search {
+    text-align: right;
+    padding: 3px;
+}
+
+#searchbtn {
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+
+#g {
+    color: #4885ed;
+}
+
+#o {
+    color: #EA4335;
+}
+
+#O {
+    color: #f4c20d;
+}
+
+#G {
+    color: #4885ed;
+}
+
+#l {
+    color: #3cba54;
+}
+
+#e {
+    color: #EA4335;
+}
+
+#bar {
+    border-style: none;
+    border: 1px solid black;
+    width: 560px;
+    height: 35px;
+    border-radius: 0px 30px 30px 0px;
+    border-width: 1px;
+    border-left: none;
+}
+
+#image {
+    background-color: white;
+    width: 40px;
+    height: 29px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 30px 0px 0px 30px;
+    border-right: none;
+    height: 37px;
+    top: 47.115%;
+    left: 30%;
+
+}
+
+#text {
+    color: #4E87F4;
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 55%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    font-weight: 750;
+}
+
+#searchcamera {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 48%;
+    left: 65%;
+}
+
+#google-homepage {
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+    font-size: larger;
+    text-decoration: none;
+
+}
