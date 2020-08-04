@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+</head>
+
+<body>
+    <div id="heading">
+        <p>Advanced Search</p>
+    </div>
+
+    <div id="subheading">
+        <p>Find pages with...</p>
+    </div>
+
+    <div id="sub-heading">
+        <p>To do this in the search box</p>
+    </div>
+
+    <p id="line1">
+        Type the important words: tri-colour rat terrier
+    </p>
+
+    <p id="line2">
+        Put exact words in quotes: "rat terrier"
+    </p>
+
+    <p id="line3">
+        Type OR between all the words you want: miniature OR standard
+    </p>
+
+    <p id="line4">
+        Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+
+    </p>
+
+    <p id="line5">
+        Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011
+
+    </p>
+
+    <form>
+        <label for="allwords" id="theseword">all these words:</label>
+        <input type="text" id="theseword">
+
+        <br>
+
+        <label for="allphrase" id="exactphrase">this exact word or phrase:</label>
+        <input type="text" id="exactphrase">
+
+        <br>
+
+        <label for="anyword" id="anywords">any of these words:</label>
+        <input type="text" id="anywords">
+
+        <br>
+
+        <label for="nonewords" id="noneword">none of these words:</label>
+        <input type="text" id="noneword">
+
+        <br>
+
+        <label for="numbers" id="numberrange">numbers ranging from:</label>
+        <input type="number" id="numberrange">
+
+        <label for="numbers" id="numberrange">to</label>
+        <input type="number" id="numberrange">
+    </form>
+
+    <div id="subheading2">
+        <p>Then narrow your results by...</p>
+    </div>
+
+    <p id="para1">
+        Find pages in the language that you select.
+    </p>
+
+    <p id="para2">
+        Find pages published in a particular region.
+    </p>
+
+    <p id="para3">
+        Find pages updated within the time that you specify.
+    </p>
+
+    <p id="para4">
+        Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov
+    </p>
+
+    <p id="para5">
+        Search for terms in the whole page, page title or web address, or links to the page you're looking for.
+    </p>
+
+    <p id="para6">
+        Tell SafeSearch whether to filter sexually explicit content.
+    </p>
+
+    <p id="para7">
+        Find pages in the format that you prefer.
+    </p>
+
+    <p id="para8">
+        Find pages that you are free to use yourself.
+    </p>
+
+    <form>
+        <label for="language" id="lang">language:</label>
+        <select name="langs" id="lang">
+            <option value="anylanguage">any language</option>
+            <option value="english">english</option>
+            <option value="hindi">hindi</option>
+            <option value="turkish">turkish</option>
+            <option value="spanish">spanish</option>
+            <option value="french">french</option>
+            <option value="arabic">arabic</option>
+        </select>
+        <br>
+        <label for="reg" id="region">region:</label>
+        <select name="reg" id="region">
+            <option value="anyregion">any region</option>
+            <option value="India">India</option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="China">China</option>
+            <option value="Turkey">Turkey</option>
+            <option value="UAE">UAE</option>
+            <option value="Spain">Spain</option>
+        </select>
+        <br>
+        <label for="update" id="lastupdate">last update:</label>
+        <select name="last" id="lastupdate">
+            <option value="anytime">anytime</option>
+            <option value="last 24 hours">last 24 hours</option>
+            <option value="uptoaweekago">upto a week ago</option>
+            <option value="upto a month ago">upto a month ago</option>
+            <option value="upto a year ago">upto a year ago</option>
+        </select>
+        <br>
+        <label for="site" id="domain">site or domain:</label>
+        <input type="text" id="domain">
+        <br>
+        <label for="appearing" id="terms">terms appearing</label>
+        <select name="appearing" id="terms">
+            <option value="anywhere in the page">anywhere in the page</option>
+            <option value="in the title of the page">in the title of the page</option>
+            <option value="in the text of the page">in the text of the page</option>
+            <option value="in the URL of the page">in the URL of the page</option>
+            <option value="in links to the page">in links to the page</option>
+        </select>
+        <br>
+        <a href="https://www.google.com/search?as_q=">submit</a>
+
+    </form>
+
+</body>
+
+</html>
